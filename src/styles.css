@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+/*
+ *---------------------------
+ * GENERAL SETTINGS
+ *---------------------------
+ */
+
+.container {
+  background-color: #ccc;
+}
+
+.container-col-justify {
+  background-color: #ccc;
+  height: 700px;
+}
+
+.heading {
+  text-align: center;
+  background-color: #f1bc42;
+  color: #fff;
+  padding: 30px;
+}
+
+.heading-col {
+  text-align: center;
+  background-color: #7f42f1;
+  color: #fff;
+  padding: 30px;
+}
+
+.item {
+  background-color: #f1425d;
+  padding: 40px;
+  margin: 30px;
+  color: #fff;
+  font-size: 30px;
+}
+
+.grow-item {
+  height: 200px;
+}
+
+.grow-item-text {
+  font-size: 90px;
+}
+
+.shrink-item {
+  width: 90px;
+}
+
+/*
+ * -------------------------
+ * FLEX SETTINGS 
+ * -------------------------
+ */
+.basic-flex {
+  display: flex;
+}
+
+.flex-row-reverse {
+  flex-direction: row-reverse;
+}
+
+.flex-dir-column {
+  flex-direction: column;
+}
+
+.flex-dir-col-reverse {
+  flex-direction: column-reverse;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-space-between {
+  justify-content: space-between;
+  margin: 0 !important;
+}
+
+.justify-space-between > .item {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.justify-space-around {
+  justify-content: space-around;
+}
+
+.justify-space-around > .item {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+.align-center {
+  align-items: center;
+}
+
+.align-start {
+  align-items: flex-start;
+}
+
+.align-end {
+  align-items: flex-end;
+}
+
+.align-stretch {
+  align-items: stretch;
+}
+
+.align-baseline {
+  align-items: baseline;
+}

@@ -1,0 +1,234 @@
+fl<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+
+  <body>
+    <!--*****************************-->
+    <!-- FLEX ROW DIRECTION-->
+    <!--*****************************-->
+    <h1 class="heading">display: flex</h1>
+    <h1 class="heading">Flex-direction: row (default)</h1>
+    <div class="container basic-flex">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+      <div class="item">5</div>
+    </div>
+    <h1 class="heading">Flex-direction: row-reverse</h1>
+    <div class="container basic-flex flex-row-reverse">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+      <div class="item">5</div>
+    </div>
+    <!------------------------->
+    <!-- CENTER: does not put 
+    space between the elements it
+    has space because of the margin
+    -->
+    <!------------------------->
+    <h1 class="heading">Justify-content: center</h1>
+    <div class="container basic-flex justify-center">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+      <div class="item">5</div>
+    </div>
+    <!------------------------->
+    <!-- SPACE-BETWEEN: Puts an
+      even amount of space bet-
+      ween all the ITEMS **not
+      outside** of them
+    -->
+    <!------------------------->
+    <h1 class="heading">Justify-content: space-between</h1>
+    <div class="container basic-flex justify-space-between">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+      <div class="item">5</div>
+    </div>
+    <!------------------------->
+    <!-- SPACE-AROUND: puts the
+      same amount of space on the
+      left on the right. Means,
+      the space between has 
+      double what's on the outside.
+    -->
+    <!------------------------->
+    <h1 class="heading">Justify-content: space-around</h1>
+    <div class="container basic-flex justify-space-around">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+      <div class="item">5</div>
+    </div>
+    <h1 class="heading">Justify-content: start</h1>
+    <div class="container basic-flex justify-start">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+      <div class="item">5</div>
+    </div>
+    <h1 class="heading">Justify-content: end</h1>
+    <div class="container basic-flex justify-end">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+      <div class="item">5</div>
+    </div>
+    <h1 class="heading">align-items: center</h1>
+    <div class="container basic-flex align-center">
+      <div class="item grow-item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+      <div class="item">5</div>
+    </div>
+    <h1 class="heading">align-items: flex-start</h1>
+    <div class="container basic-flex align-start">
+      <div class="item grow-item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+      <div class="item">5</div>
+    </div>
+    <h1 class="heading">align-items: flex-end</h1>
+    <div class="container basic-flex align-end">
+      <div class="item grow-item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+      <div class="item">5</div>
+    </div>
+    <h1 class="heading">align-items: stretch (default)</h1>
+    <div class="container basic-flex align-stretch">
+      <div class="item grow-item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+      <div class="item">5</div>
+    </div>
+    <h1 class="heading">align-items: baseline</h1>
+    <div class="container basic-flex align-baseline">
+      <div class="item grow-item">1</div>
+      <div class="item">2</div>
+      <div class="item grow-item-text">3</div>
+      <div class="item">4</div>
+      <div class="item">5</div>
+    </div>
+    <!--*****************************-->
+    <!-- FLEX COLUMN DIRECTION -->
+    <!--*****************************-->
+    <h1 class="heading-col">Flex-direction: column</h1>
+    <div class="container basic-flex flex-dir-column">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+    </div>
+    <h1 class="heading-col">Flex-direction: column-reverse</h1>
+    <div class="container basic-flex flex-dir-col-reverse">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+    </div>
+    <!------------------------->
+    <!-- CENTER: does not put 
+    space between the elements it
+    has space because of the margin
+    -->
+    <!------------------------->
+    <h1 class="heading-col">Justify-content: center</h1>
+    <div
+      class="container-col-justify basic-flex flex-dir-column justify-center"
+    >
+      <div class="item shrink-item">1</div>
+      <div class="item shrink-item">2</div>
+      <div class="item shrink-item">3</div>
+    </div>
+    <!------------------------->
+    <!-- SPACE-BETWEEN: Puts an
+      even amount of space bet-
+      ween all the ITEMS **not
+      outside** of them
+    -->
+    <!------------------------->
+    <h1 class="heading-col">Justify-content: space-between</h1>
+    <div
+      class="container-col-justify basic-flex flex-dir-column justify-space-between"
+    >
+      <div class="item shrink-item">1</div>
+      <div class="item shrink-item">2</div>
+      <div class="item shrink-item">3</div>
+    </div>
+    <!------------------------->
+    <!-- SPACE-AROUND: puts the
+      same amount of space on the
+      left on the right. Means,
+      the space between has 
+      double what's on the outside.
+    -->
+    <!------------------------->
+    <h1 class="heading-col">Justify-content: space-around</h1>
+    <div
+      class="container-col-justify basic-flex flex-dir-column justify-space-around"
+    >
+      <div class="item shrink-item">1</div>
+      <div class="item shrink-item">2</div>
+      <div class="item shrink-item">3</div>
+    </div>
+    <h1 class="heading-col">Justify-content: start</h1>
+    <div class="container-col-justify basic-flex flex-dir-column justify-start">
+      <div class="item shrink-item">1</div>
+      <div class="item shrink-item">2</div>
+      <div class="item shrink-item">3</div>
+    </div>
+    <h1 class="heading-col">Justify-content: end</h1>
+    <div class="container-col-justify basic-flex flex-dir-column justify-end">
+      <div class="item shrink-item">1</div>
+      <div class="item shrink-item">2</div>
+      <div class="item shrink-item">3</div>
+    </div>
+    <h1 class="heading-col">align-items: center</h1>
+    <div class="container basic-flex flex-dir-column align-center">
+      <div class="item shrink-item">1</div>
+      <div class="item shrink-item">2</div>
+      <div class="item shrink-item">3</div>
+    </div>
+    <h1 class="heading-col">align-items: flex-start</h1>
+    <div class="container basic-flex flex-dir-column align-start">
+      <div class="item shrink-item">1</div>
+      <div class="item shrink-item">2</div>
+      <div class="item shrink-item">3</div>
+    </div>
+    <h1 class="heading-col">align-items: flex-end</h1>
+    <div class="container basic-flex flex-dir-column align-end">
+      <div class="item shrink-item">1</div>
+      <div class="item shrink-item">2</div>
+      <div class="item shrink-item">3</div>
+    </div>
+    <h1 class="heading-col">align-items: stretch (default)</h1>
+    <div class="container basic-flex flex-dir-column align-stretch">
+      <div class="item shrink-item grow-item">1</div>
+      <div class="item shrink-item">2</div>
+      <div class="item shrink-item">3</div>
+    </div>
+    <h1 class="heading-col">align-items: baseline</h1>
+    <div class="container basic-flex flex-dir-column align-baseline">
+      <div class="item shrink-item grow-item">1</div>
+      <div class="item shrink-item ">2</div>
+      <div class="item shrink-item grow-item-text">3</div>
+    </div>
+  </body>
+</html>
